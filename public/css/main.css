@@ -1,0 +1,29 @@
+.icon_wrapper{
+    justify-content: space-around;
+}
+/* .item{
+    padding: 15px 15px;
+    width: 50%;
+    height: auto;
+    box-shadow: none;
+    border-radius: 0rem;
+
+} */
+.item_box {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+    border-radius: 50%;
+    position:relative;
+    background:#fff;
+}
+
+.icon_size{
+    font-size: 60px;
+    color: var(--icon-color);
+    padding-bottom: 20px;
+}
+.desc {
+    font-size: 14px;
+    color: var(--gray-dark);
+}
