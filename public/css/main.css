@@ -1,6 +1,55 @@
-.icon_wrapper{
+.header {
+    font-family: "lora";
+    text-align: center;
+}
+
+.header__top {
+    display: flex;
+}
+
+.preview__logo {
+    max-width: 10rem;
+}
+
+.menu__list {
+    display: flex;
+    list-style: none;
+}
+
+.logo {
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.menu {
+    margin-top: 4.5%;
+    margin-left: 14%;
+    position: relative;
+}
+
+.menu__item {
+    margin: 0 1.5rem;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #303030;
+}
+
+.header__icon {
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 25px;
+}
+
+.header__icon i {
+    margin-right: 10px;
+}
+
+.icon_wrapper {
     justify-content: space-around;
 }
+
 /* .item{
     padding: 15px 15px;
     width: 50%;
@@ -12,17 +61,18 @@
 .item_box {
     width: 300px;
     height: 300px;
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    position:relative;
-    background:#fff;
+    position: relative;
+    background: #fff;
 }
 
-.icon_size{
+.icon_size {
     font-size: 60px;
     color: var(--icon-color);
     padding-bottom: 20px;
 }
+
 .desc {
     font-size: 14px;
     color: var(--gray-dark);
