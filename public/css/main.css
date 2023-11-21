@@ -245,3 +245,152 @@
     margin-bottom: 5px; 
     margin-right: 10px;
 } */
+
+
+
+
+
+
+
+/*QUang*/
+.margin-content {
+    margin: 100px 0px;
+}
+
+.icon--rounded {
+    aspect-ratio: 1 / 1;
+    width: 300px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    position: relative;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-icon--rounded {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon__size {
+    font-size: 30px;
+    color: rgb(20, 130, 93);
+}
+
+.icon__margin--bottom {
+    margin-bottom: 17px;
+}
+
+.desc {
+    color: #666;
+    margin: 0;
+    line-height: 24px;
+}
+
+.produce-showcase {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+}
+
+.produce-showcase--collumn-1 {
+
+    height: 1350px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+}
+
+.produce-showcase--collumn-2 {
+    justify-content: space-between;
+    height: 1350px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.produce-showcase--small-box {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.produce-showcase--small-picture {
+    width: 630px;
+    height: 600px;
+    position: relative;
+
+}
+
+.produce-showcase--large-picture {
+    width: 630px;
+    height: 720px;
+    position: relative;
+}
+
+.produce-showcase--background {
+    background-color: #5d986a;
+}
+
+.produce-showcase--image-container {
+    position: relative;
+}
+
+.produce-showcase--small-box .produce-showcase-info  {
+    top : 40%;
+    bottom: auto;
+}
+.produce-showcase--large-box .produce-showcase-info  {
+    top : 40%;
+    bottom: auto;
+}
+.produce-showcase--large-box:nth-of-type(1) .produce-showcase-info  {
+    top : 145px;
+    bottom: auto;
+    left: 95px;
+}
+.produce-showcase-info {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.lora-font {
+    font-family: 'lora', serif;
+}
+
+.color {
+    color: var(--primary-color)
+}
+
+.shop-button {
+    border-style: solid;
+    border-width: 1px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 25px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--button-color)
+}
+.color-white{
+    color: var(--white-color)
+}
