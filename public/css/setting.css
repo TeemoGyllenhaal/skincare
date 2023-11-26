@@ -2,16 +2,37 @@
     --primary-color: #5d986a;
     --button-color: black;
     --white-color: white;
+    --link-color: black;
 }
+.full-screen {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
 .title18{
     font-size: 18px;
+}
+.title50{
+    font-size: 50px;
 }
 .title60{
     font-size: 60px;
 }
+.title80{
+    font-size: 80px;
+}
 .title30{
     font-size: 30px;
 }
+
+.margin-top30{
+    margin-top: 30px;
+}
+.margin-top60{
+    margin-top: 60px;
+}
+
 body{
     color: #303030;
     font-family: 'Roboto', sans-serif;
@@ -21,4 +42,8 @@ body{
     padding: 0; 
     font-weight: 400; 
     letter-spacing: 0.2px;
+}
+.vc_row {
+    margin-left: 48px;
+    margin-right: 48px;
 }
